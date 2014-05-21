@@ -66,13 +66,13 @@ class ContentQLink extends \Contao\ContentElement
             $id = intval($id);
         }
         
-		$cols = array('id IN (' . implode(',', $pageIds) . ')');
+        $cols = array('id IN (' . implode(',', $pageIds) . ')');
 
         // Fetch only visible pages if not admin
-		if (!BE_USER_LOGGED_IN) {
-			$time = time();
-			$cols[] = "(start='' OR start<$time) AND (stop='' OR stop>$time) AND published=1";
-		}
+        if (!BE_USER_LOGGED_IN) {
+            $time = time();
+            $cols[] = "(start='' OR start<$time) AND (stop='' OR stop>$time) AND published=1";
+        }
         
         return $this->parsePages(\Contao\PageModel::findBy($cols, null));
     }
