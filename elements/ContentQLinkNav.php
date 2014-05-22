@@ -74,7 +74,7 @@ class ContentQLinkNav extends \Contao\ContentElement
             $cols[] = "(start='' OR start<$time) AND (stop='' OR stop>$time) AND published=1";
         }
         
-        return $this->parsePages(\Contao\PageModel::findBy($cols, null));
+        return $this->parsePages(\PageModel::findBy($cols, null, array('order' => 'pid, sorting')));
     }
     
     
