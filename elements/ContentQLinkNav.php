@@ -4,11 +4,11 @@ namespace QLink;
 
 
 /**
- * Class ContentQLink
+ * Class ContentQLinkNav
  */
-class ContentQLink extends \Contao\ContentElement
+class ContentQLinkNav extends \Contao\ContentElement
 {
-    protected $strTemplate  = 'ce_qlink',
+    protected $strTemplate  = 'ce_qlink_nav',
               $pages        = array(),
               $itemKey      = 'item',
               $keepQuery    = false;

@@ -6,7 +6,7 @@
 <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
 <?php endif; ?>
 
-<nav class="qlink block">
+<nav class="qlink qlink_nav block">
     <?php echo $this->navigationMarkup; ?>
 </nav>
 

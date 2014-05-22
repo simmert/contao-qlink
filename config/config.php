@@ -3,4 +3,4 @@
 /**
  * Content elements
  */
-$GLOBALS['TL_CTE']['links']['qlink'] = 'ContentQLink';
+$GLOBALS['TL_CTE']['links']['qlink_nav'] = 'ContentQLinkNav';

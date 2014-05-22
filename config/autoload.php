@@ -26,7 +26,7 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Elements
-	'QLink\ContentQLink' => 'system/modules/qlink/elements/ContentQLink.php',
+	'QLink\ContentQLinkNav' => 'system/modules/qlink/elements/ContentQLinkNav.php',
 ));
 
 
@@ -35,5 +35,5 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'ce_qlink' => 'system/modules/qlink/templates/elements',
+	'ce_qlink_nav' => 'system/modules/qlink/templates/elements',
 ));

@@ -3,7 +3,7 @@
 /**
  * Add palettes to tl_content
  */
-$GLOBALS['TL_DCA']['tl_content']['palettes']['qlink'] = '{type_legend},type,headline;{link_legend},qlink_pages;{expert_legend:hide},qlink_item_key,qlink_keep_query;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;{invisible_legend:hide},invisible,start,stop';
+$GLOBALS['TL_DCA']['tl_content']['palettes']['qlink_nav'] = '{type_legend},type,headline;{link_legend},qlink_pages;{expert_legend:hide},qlink_item_key,qlink_keep_query;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;{invisible_legend:hide},invisible,start,stop';
 
 
 /**
